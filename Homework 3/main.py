@@ -51,6 +51,7 @@ while(True):
         sval_str = ""
         which_num = 1
         result = 0.0
+        expr_done = False
         print("Calculator cleared.")
         
 
