@@ -1,4 +1,4 @@
-from cmath import exp
+import math
 
 current_mem = 0.0
 
@@ -15,10 +15,10 @@ def divide(n1, n2):
     return n1 / n2
 
 def power(n1, n2):
-    return exp(n1, n2)
+    return math.pow(n1, n2)
 
 def invert(n1):
-    return -n1
+    return n1 * -1
 
 def  call_mem():
     return current_mem
