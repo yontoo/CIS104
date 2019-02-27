@@ -13,7 +13,11 @@ def multiply(n1, n2):
 
 #Function to divide 2 inputed numbers.
 def divide(n1, n2):
-    return n1 / n2
+    try:
+        return n1 / n2
+    except ZeroDivisionError:
+        print("\nERROR: Divide by zero.")
+        return 0
 
 #Function to get the result of n1 to the power of n2.
 def power(n1, n2):
